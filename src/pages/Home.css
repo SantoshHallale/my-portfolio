@@ -1,0 +1,44 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container h1 {
+    font-size: 48px;
+}
+
+.home-container h1 span{
+    color: #6C63FF;
+}
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    border: 2px solid #6C63FF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #6C63FF;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #555;
+}
